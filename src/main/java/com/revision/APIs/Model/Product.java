@@ -6,12 +6,13 @@ import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
 public class Product {
 
     private int prodId;
     private String prodName;
     private int price;
+
+    //Made changes
 
 
 }
